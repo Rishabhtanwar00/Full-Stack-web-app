@@ -25,11 +25,6 @@ const Logo = styled.span`
   margin-left: 100px;
 `;
 
-const Center = styled.div`
-  flex: 1;
-  text-align: center;
-`;
-
 const SearchContainer = styled.div`
   display: flex;
   align-items: center;
@@ -63,12 +58,6 @@ const Navbar = () => {
             <LocalFlorist style={{ fontSize: 25 }} />
           </Logo>
         </Left>
-        {/* <Center>
-          <SearchContainer>
-            <InputContainer />
-            <Search />
-          </SearchContainer>
-        </Center> */}
         <Right>
           <SearchContainer>
             <InputContainer />
